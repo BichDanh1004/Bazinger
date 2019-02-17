@@ -19,8 +19,8 @@
 
     <!-- Menu -->
 
-    <header class="container-fluid">
-        <div class="d-flex flex-row">
+    <header class="container-fluid fixed-top">
+        <div class="d-flex flex-row ">
             <div class="col-lg-3">
                 <div class="img-logo">
                     <a href="">
@@ -101,18 +101,16 @@
 
                     <button type="button" class="btn btn-info">LEARN MORE</button>
 
-                    <ul class="available">
+                    <ul class="available ">
                         <li>
                             <h5>Available on:</h5>
                         </li>
 
-                        <li class="icons">
+                        <li class="icons text-left">
                             <i class="fab fa-apple fa-2x"></i>
                         </li>
 
-                        <li class="icons">
-                            <i class="fab fa-android fa-2x"></i>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -221,6 +219,10 @@
         </div>
     </div>
 
+
+    <!--Gallery-->
+
+
     <div class="container border-bottom">
         <div class="gallery-header">
             <h1>Show the gallery</h1>
@@ -233,49 +235,65 @@
         <div class="d-flex flex-row gallery-content">
             <div class="col-3">
                 <div class="box-gallery">
-                    <div>
-                        <img src="./images/p1.jpg" alt="" class="box-gallery-img">
+                    <div class="overlay">
+                        <div>
+                            <img src="./images/p1.jpg" alt="" class="box-gallery-img">
+                        </div>
+
+                        <div class="box-gallery-text">
+                            <p>SCREEN SHOT#3</p>
+                        </div>
                     </div>
 
-                    <div class="box-gallery-text">
-                        <p>SCREEN SHOT#3</p>
-                    </div>
+                    <div class="middle">+</div>
                 </div>
             </div>
 
             <div class="col-3">
                 <div class="box-gallery">
-                    <div>
-                        <img src="./images/p2.jpg" alt="" class="box-gallery-img">
+                    <div class="overlay">
+                        <div>
+                            <img src="./images/p2.jpg" alt="" class="box-gallery-img">
+                        </div>
+
+                        <div class="box-gallery-text">
+                            <p>SCREEN SHOT#3</p>
+                        </div>
                     </div>
 
-                    <div class="box-gallery-text">
-                        <p>SCREEN SHOT#3</p>
-                    </div>
+                    <div class="middle">+</div>
                 </div>
             </div>
 
             <div class="col-3">
                 <div class="box-gallery">
-                    <div>
-                        <img src="./images/p3.jpg" alt="" class="box-gallery-img">
+                    <div class="overlay">
+                        <div>
+                            <img src="./images/p3.jpg" alt="" class="box-gallery-img">
+                        </div>
+
+                        <div class="box-gallery-text">
+                            <p>SCREEN SHOT#3</p>
+                        </div>
                     </div>
 
-                    <div class="box-gallery-text">
-                        <p>SCREEN SHOT#3</p>
-                    </div>
+                    <div class="middle">+</div>
                 </div>
             </div>
 
             <div class="col-3">
                 <div class="box-gallery">
-                    <div>
-                        <img src="./images/p4.jpg" alt="" class="box-gallery-img">
+                    <div class="overlay">
+                        <div>
+                            <img src="./images/p4.jpg" alt="" class="box-gallery-img">
+                        </div>
+
+                        <div class="box-gallery-text">
+                            <p>SCREEN SHOT#3</p>
+                        </div>
                     </div>
 
-                    <div class="box-gallery-text">
-                        <p>SCREEN SHOT#3</p>
-                    </div>
+                    <div class="middle">+</div>
                 </div>
             </div>
         </div>
@@ -306,9 +324,8 @@
     <!--Prices-->
 
     <div class="container">
-        <div class="d-flex flex-row card-deck ">
-
-            <div class="col-4">
+        <div class="d-flex flex-row  ">
+            <div class="col-4 card-deck">
                 <div class="card">
                     <h5>BASIC PACKAGE</h5>
                     <div class=" card-header-1">
@@ -322,7 +339,7 @@
                 </div>
 
             </div>
-            <div class="col-4">
+            <div class="col-4 card-deck">
                 <div class="card">
                     <h5>BASIC PACKAGE</h5>
                     <div class=" card-header-2">
@@ -336,7 +353,7 @@
                 </div>
 
             </div>
-            <div class="col-4">
+            <div class="col-4 card-deck">
                 <div class="card">
                     <h5>BASIC PACKAGE</h5>
                     <div class=" card-header-3">

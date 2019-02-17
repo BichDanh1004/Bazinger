@@ -129,11 +129,13 @@
 .available h5 {
     margin-left: 0px;
     position: relative;
+    margin-top: 30px;
 }
 
 .available .icons {
     margin-left: 160px;
     margin-right: 140px;
+    margin-top: 30px;
 }
 
 .feature-header {
@@ -174,6 +176,38 @@
     font-size: 20px;
     text-align: center;
     margin-top: 15px;
+}
+
+.middle {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 5.5%;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 89%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.box-gallery:hover .overlay {
+    opacity: 0.3;
+    background-color: rgb(123, 207, 243);
+}
+
+.box-gallery:hover .middle {
+    opacity: 1;
+    font-size: 70px;
 }
 
 .video {
@@ -245,6 +279,15 @@
     padding: 7px 30px;
     border-radius: 5px;
     background-color: #fd7c00;
+}
+
+.card {
+    position: relative;
+}
+
+.card-deck:hover .card {
+    transform: scale(1.1);
+    transition: .5s ease;
 }
 
 .card h5 {
@@ -337,19 +380,24 @@
 }
 
 .contact {
-    background-image: url("../images/google-map-background.jpg");
+    position: relative;
+    background-image: url("https://staticmapmaker.com/img/google@2x.png");
     background-repeat: no-repeat;
     height: 600px;
     text-align: center;
+    width: 100%;
 }
 
 .b-page-form {
+    position: absolute;
     border-radius: 4px;
     width: 324px;
     height: 460px;
     background-color: rgba(75, 202, 255, 0.8);
     padding: 10px;
-    margin-left: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .b-title {
