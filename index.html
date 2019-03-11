@@ -12,57 +12,79 @@
 
     <link rel="stylesheet" href="./style.css"></link>
 
-    <title>Bazinger</title>
+    <title>Diamond</title>
 </head>
 
 <body>
+    <section id="nv-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="nv-h-left">
+                        <ul>
+                            <li><a href="#" title="Doji.vn" target="_blank">Diamond.vn</a></li>
+                            <li><a href="#" title="Tin tức">Tin tức</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i><a rel="" href="#">Hệ thống phân phối</a></li>
+                            <li><i class="fas fa-phone-square"></i></i><a rel="" href="#">Hotline:<b>1800 1111</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nv-h-right">
+                        <ul>
+                            <li>
+                                <a rel="nofollow" href="signup.html" title=" Đăng ký " class="pop-up-form register-sucssec ">Đăng ký</a></li>
+                            <li>
+                                <a rel="nofollow " href="login.html " title="Đăng nhập " class="pop-up-form ">Đăng nhập</a>
+                            </li>
+                            <li><a rel="nofollow " id="top-cart-btn " href="/gio-hang " title=" "><i class="fas fa-cart-plus "></i></i>Giỏ hàng <span id="count_shopping_cart ">(0)</span></a></li>
 
+                        </ul>
+                        <div id="search-main ">
+                            <form id="f-search-main " method="get " action="/tim-kiem ">
+                                <input type="search " name="keyword " placeholder="TÌM KIẾM ">
+                                <input type="hidden " name="view " value="product ">
+                                <button type="submit "><span class="fa fa-search "></span></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Menu -->
 
-    <div class="container-fluid fixed-top">
-        <div class="d-flex flex-row">
-            <div class="col-lg-3">
-                <div class="img-logo">
-                    <a href="">
-                        <img src="images/logo.png" alt="" class="logo">
+    <div class="container-fluid sticky " id="sticky-header ">
+        <div class="d-flex flex-row navbar ">
+            <div class="col-lg-3 ">
+                <div class="logo ">
+                    <a href=" ">
+                        <span>DIAMOND</span>
                     </a>
                 </div>
             </div>
 
-            <div class="col-lg-9">
-                <div class="navbar">
-                    <nav class="navbar-expand-sm">
-                        <ul class="navbar-nav">
+            <div class="col-lg-9 ">
+                <div class="navbar-text ">
+                    <nav class="navbar-expand-sm ">
+                        <ul class="navbar-nav ">
                             <li>
-                                <a href="#home" class="text-nav">HOME</a>
+                                <a href="./index.html " class="text-nav ">TRANG CHỦ</a>
                             </li>
 
                             <li>
-                                <a href="#features" class="text-nav">FEATURES</a>
+                                <a href="./introduce.html " class="text-nav ">GIỚI THIỆU</a>
                             </li>
 
                             <li>
-                                <a href="#gallery" class="text-nav">GALLERY</a>
+                                <a href="./ring.html " class="text-nav ">NHẪN</a>
                             </li>
-
                             <li>
-                                <a href="#video" class="text-nav">VIDEO</a>
+                                <a href="./bracelet.html " class="text-nav ">VÒNG TAY</a>
                             </li>
-
                             <li>
-                                <a href="#prices" class="text-nav">PRICES</a>
-                            </li>
-
-                            <li>
-                                <a href="#testimonails" class="text-nav">TESTIMONIALS</a>
-                            </li>
-
-                            <li>
-                                <a href="#download" class="text-nav">DOWNLOAD</a>
-                            </li>
-
-                            <li>
-                                <a href="#contact" class="text-nav">CONTACT</a>
+                                <a href="./necklace.html " class="text-nav ">DÂY CHUYỀN</a>
                             </li>
                         </ul>
                     </nav>
@@ -73,160 +95,185 @@
 
     <!-- Carousel -->
 
-    <div class="container-fluid" id="home">
-        <div id="carousel" class="carousel" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <div class="container-fluid " id="home ">
+        <div id="carousel " class="carousel " data-ride="carousel ">
+            <ul class="carousel-indicators ">
+                <li data-target="#carousel " data-slide-to="0 " class="active "></li>
 
-                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel " data-slide-to="1 "></li>
 
-                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel " data-slide-to="2 "></li>
             </ul>
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/background.png" class="img-slide" alt="Slide1">
-
-                    <div class="text-slide">
-                        <h1>
-                            Simple,Beautiful
-
-                            <span>and Amezing</span>
-                        </h1>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-
-                        <button type="button" class="btn btn-info">DOWLOAD</button>
-
-                        <button type="button" class="btn btn-info">LEARN MORE</button>
-
-                        <ul class="available ">
-                            <li>
-                                <h5>Available on:</h5>
-                            </li>
-
-                            <li class="icons ">
-                                <i class="fab fa-apple fa-2x mx-5 "></i>
-                            </li>
-                            <li class="icons">
-                                <i class="fab fa-android fa-2x "></i>
-                            </li>
-
-
-                        </ul>
-                    </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="./images/slider1.jpg " class="img-slide " alt="Slide1 ">
                 </div>
 
-                <div class="carousel-item">
-                    <img src="./images/background.png" class="img-slide" alt="Slide2">
-
-                    <div class="text-slide">
-                        <h3>Another example headline.</h3>
-
-                        <p>
-                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                        </p>
-
-                        <button type="button" class="btn btn-info">DOWLOAD</button>
-
-                        <button type="button" class="btn btn-info">LEARN MORE</button>
-                    </div>
+                <div class="carousel-item ">
+                    <img src="./images/slide4.jpg " class="img-slide " alt="Slide2 ">
                 </div>
 
-                <div class="carousel-item">
-                    <img src="./images/background.png" class="img-slide" alt="Slide2">
+                <div class="carousel-item ">
+                    <img src="./images/slide3.jpg " class="img-slide " alt="Slide2 ">
+                </div>
+            </div>
 
-                    <div class="text-slide">
-                        <h3>One more for good measure.</h3>
+            <a class="carousel-control-prev " href="#carousel " data-slide="prev ">
+                <span class="carousel-control-prev-icon "></span>
+            </a>
 
-                        <p>
-                            ras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                        </p>
-
-                        <button type="button" class="btn btn-info">DOWLOAD</button>
-
-                        <button type="button" class="btn btn-info">LEARN MORE</button>
+            <a class="carousel-control-next " href="#carousel " data-slide="next ">
+                <span class="carousel-control-next-icon "></span>
+            </a>
+        </div>
+    </div>
+    <!--Card-->
+    <div class="container ">
+        <div class="text-header ">
+            <h1>SẢN PHẨM</h1>
+        </div>
+        <div class="row ">
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/vongtay3.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
                     </div>
                 </div>
             </div>
 
-            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/khuyentai3.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/nhan2.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/vongtay5.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <a class="carousel-control-next" href="#carousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+        <div class="row ">
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/daychuyen1.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/vongtay7.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/khuyentai4.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="# " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card ">
+                    <img class="card-img-top " src="images/daychuyen2.jpg " alt="Card image cap ">
+                    <div class="card-body ">
+                        <p class="card-left ">500,000 VND</p>
+                        <a href="./detail-product.html " class="btn btn-primary ">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 
     <!-- Features -->
 
-    <div class="container border-bottom" id="features">
-        <div class="feature-header">
-            <h1>Summarise the features</h1>
-
-            <p>
-                Summarise what your product all about
-            </p>
+    <div class="container " id="features ">
+        <div class="feature-header ">
+            <h1>Giá Trị Nổi Bật</h1>
         </div>
-
-        <div class="d-flex flex-row feature-content">
-            <div class="col-3">
-                <div class="circle-feature mx-auto">
-                    <div class="icon-layer"><i class="fab fa-google-play fa-3x"></i></div>
+        <div class="d-flex flex-row feature-content ">
+            <div class="col-3 ">
+                <div class="circle-feature mx-auto ">
+                    <div class="icon-layer "><img src="https://media.precita.vn/wysiwyg/icon/chung_nhan_icon_final.png " alt=" "></div>
                 </div>
 
-                <div class="text-detail">
-                    <h5 class="text-center">ATTRACTIVE LAYOUT</h5>
+                <div class="text-detail ">
+                    <h5 class="text-center ">ĐẠT CHUẨN</h5>
 
-                    <p class="mx-auto">
-                        Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium
+                    <p class="mx-auto ">
+                        Đủ chứng nhận chất lượng
                     </p>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="circle-feature mx-auto">
-                    <div class="icon-layer"><i class="fab fa-google-play fa-3x"></i></div>
+            <div class="col-3 ">
+                <div class="circle-feature mx-auto ">
+                    <div class="icon-layer "><img src="https://media.precita.vn/wysiwyg/icon/chat_luong_icon_final.png " alt=" "></div>
                 </div>
 
-                <div class="text-detail">
-                    <h5 class="text-center">ATTRACTIVE LAYOUT</h5>
+                <div class="text-detail ">
+                    <h5 class="text-center ">CHẤT LƯỢNG</h5>
 
-                    <p class="mx-auto">
-                        Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium
+                    <p class="mx-auto ">
+                        Đúng trọng lượng và hàm lượng
                     </p>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="circle-feature mx-auto">
-                    <div class="icon-layer"><i class="fab fa-google-play fa-3x"></i></div>
+            <div class="col-3 ">
+                <div class="circle-feature mx-auto ">
+                    <div class="icon-layer "><img src="https://media.precita.vn/wysiwyg/icon/thu_doi_cao_icon_final.png " alt=" "></div>
                 </div>
 
-                <div class="text-detail">
-                    <h5 class="text-center">ATTRACTIVE LAYOUT</h5>
+                <div class="text-detail ">
+                    <h5 class="text-center ">CAM KẾT</h5>
 
-                    <p class="mx-auto">
-                        Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium
+                    <p class="mx-auto ">
+                        Thu mua đổi trọn đời
                     </p>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="circle-feature mx-auto">
-                    <div class="icon-layer"><i class="fab fa-google-play fa-3x"></i></div>
+            <div class="col-3 ">
+                <div class="circle-feature mx-auto ">
+                    <div class="icon-layer "><img src="https://media.precita.vn/wysiwyg/icon/bao_hanh_vuot_troi_icon_final.png " alt=" "></div>
                 </div>
 
-                <div class="text-detail">
-                    <h5 class="text-center">ATTRACTIVE LAYOUT</h5>
+                <div class="text-detail ">
+                    <h5 class="text-center ">MIỄN PHÍ</h5>
 
-                    <p class="mx-auto">
-                        Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium
+                    <p class="mx-auto ">
+                        Làm sạch trọn đời
                     </p>
                 </div>
             </div>
@@ -237,206 +284,114 @@
     <!--Gallery-->
 
 
-    <div class="container border-bottom" id="gallery">
-        <div class="gallery-header">
-            <h1>Show the gallery</h1>
-
-            <p>
-                Summarise what your product all about
-            </p>
+    <div class="container border-bottom " id="gallery ">
+        <div class="gallery-header ">
+            <h1>Bộ Sưu Tập</h1>
         </div>
 
-        <div class="d-flex flex-row gallery-content">
-            <div class="col-3">
-                <div class="box-gallery">
-                    <div class="overlay">
+        <div class="d-flex flex-row gallery-content ">
+            <div class="col-3 ">
+                <div class="box-gallery ">
+                    <div class="overlay ">
                         <div>
-                            <img src="./images/p1.jpg" alt="" class="box-gallery-img">
+                            <img src="./images/bst1.jpg " alt=" " class="box-gallery-img ">
                         </div>
 
-                        <div class="box-gallery-text">
+                        <div class="box-gallery-text ">
                             <p>SCREEN SHOT#3</p>
                         </div>
                     </div>
 
-                    <div class="middle">+</div>
+                    <div class="middle ">+</div>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="box-gallery">
-                    <div class="overlay">
+            <div class="col-3 ">
+                <div class="box-gallery ">
+                    <div class="overlay ">
                         <div>
-                            <img src="./images/p2.jpg" alt="" class="box-gallery-img">
+                            <img src="./images/bst2.jpg " alt=" " class="box-gallery-img ">
                         </div>
 
-                        <div class="box-gallery-text">
+                        <div class="box-gallery-text ">
                             <p>SCREEN SHOT#3</p>
                         </div>
                     </div>
 
-                    <div class="middle">+</div>
+                    <div class="middle ">+</div>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="box-gallery">
-                    <div class="overlay">
+            <div class="col-3 ">
+                <div class="box-gallery ">
+                    <div class="overlay ">
                         <div>
-                            <img src="./images/p3.jpg" alt="" class="box-gallery-img">
+                            <img src="./images/trangsuc4.jpg " alt=" " class="box-gallery-img ">
                         </div>
 
-                        <div class="box-gallery-text">
+                        <div class="box-gallery-text ">
                             <p>SCREEN SHOT#3</p>
                         </div>
                     </div>
 
-                    <div class="middle">+</div>
+                    <div class="middle ">+</div>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="box-gallery">
-                    <div class="overlay">
+            <div class="col-3 ">
+                <div class="box-gallery ">
+                    <div class="overlay ">
                         <div>
-                            <img src="./images/p4.jpg" alt="" class="box-gallery-img">
+                            <img src="./images/trangsuc5.png " alt=" " class="box-gallery-img ">
                         </div>
 
-                        <div class="box-gallery-text">
+                        <div class="box-gallery-text ">
                             <p>SCREEN SHOT#3</p>
                         </div>
                     </div>
 
-                    <div class="middle">+</div>
+                    <div class="middle ">+</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Video -->
-    <div class="container-fluid" id="video">
-        <div class="video">
-            <button class="b-btn-play">
-                    <i class="fas fa-play fa-2x icon-video" id="videoLink"></i> 
-                    <div id="videoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
-                        <iframe width="853" height="480" src="https://www.youtube.com/embed/oXoe3GWygq0?rel=0" frameborder="0" allowfullscreen></iframe>
-                       </div>           
-            </button>
-            <div class="text-video">
-                <h3 class="title-video">
-                    Watch the best Technology in
-                    <span><strong>Action</strong> </span>
-                </h3>
 
-                <p>Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis.Eum patrioque mnesarchum eu, diam erant convenire et vis Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant
-                    expetendis.
-                </p>
-
-            </div>
-        </div>
-    </div>
-
-
-
-    <!--Prices-->
-
-    <div class="container" id="prices">
-        <div class="d-flex flex-row">
-            <div class="col-4 card-deck">
-                <div class="card">
-                    <h5>BASIC PACKAGE</h5>
-                    <div class=" card-header-1">
-                        <p>20$</p>
-                    </div>
-                    <div class="card-body">
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit iaculis</p>
-                        <button type="button" class="b-btn-1">PURCHASE</button>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-4 card-deck">
-                <div class="card">
-                    <h5>BASIC PACKAGE</h5>
-                    <div class=" card-header-2">
-                        <p>20$</p>
-                    </div>
-                    <div class="card-body">
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit iaculis</p>
-                        <button type="button" class="b-btn-2">PURCHASE</button>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-4 card-deck">
-                <div class="card">
-                    <h5>BASIC PACKAGE</h5>
-                    <div class=" card-header-3">
-                        <p>20$</p>
-                    </div>
-                    <div class="card-body">
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit iaculis</p>
-                        <button type="button" class="b-btn-3">PURCHASE</button>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-
-
-    <!--Testimonails-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <!--DESIGNER-->
+    <div id="carouselExampleIndicators " class="carousel slide " data-ride="carousel ">
+        <ol class="carousel-indicators ">
+            <li data-target="#carouselExampleIndicators " data-slide-to="0 " class="active "></li>
+            <li data-target="#carouselExampleIndicators " data-slide-to="1 "></li>
+            <li data-target="#carouselExampleIndicators " data-slide-to="2 "></li>
         </ol>
-        <div class="carousel-inner" id="testimonails">
-            <div class="title-testimonails">
-                <h1 class="t-title">TESTIMONAILS</h1>
+        <div class="carousel-inner my-5 ">
+            <div class="title-design ">
+                <h1 class="t-title ">Jon Martin</h1>
             </div>
-            <div class="carousel-item active">
-                <div class="row item">
-                    <div class="col-6">
-                        <img src="./images/slide1.png" alt="">
+            <div class="carousel-item active main-design ">
+                <div class="row item ">
+                    <div class="col-5 ">
+                        <img src="./images/design-1.png " alt=" " class="img-design ">
                     </div>
-                    <div class="col-6">
+                    <div class="col-7 ">
                         <p>
-                            Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.
+                            Thời trang luôn luôn là tạm thời và không chắc chắn. Bạn không thể theo kịp nó. Hiện tượng xã hội này rất hay thay đổi, do đó chúng tôi là những người tiêu dùng luôn cố gắng giữ liên lạc với tất cả các xu hướng thời trang mới nhất. Rõ ràng không có gì
+                            sai về nó bởi vì thời trang thỏa mãn sự sẵn sàng của chúng ta để trở nên hấp dẫn. Và thời trang cũng là nguồn gốc của sự thịnh vượng và thứ hạng xã hội.
                         </p>
                         <h5>John Doe</h5>
                         <h6>from some company</h6>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="row item">
-                    <div class="col-6">
-                        <img src="./images/slide2.png" alt="">
+            <div class="carousel-item main-design ">
+                <div class="row item ">
+                    <div class="col-5 ">
+                        <img src="./images/design-2.png " alt=" " class="img-design ">
                     </div>
-                    <div class="col-6">
+                    <div class="col-7 ">
                         <p>
-                            Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.
-                        </p>
-                        <h5>John Doe</h5>
-                        <h6>from some company</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row item">
-                    <div class="col-6">
-                        <img src="./images/slide1.png" alt="">
-                    </div>
-                    <div class="col-6">
-                        <p>
-                            Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.
+                            Thời trang luôn luôn là tạm thời và không chắc chắn. Bạn không thể theo kịp nó. Hiện tượng xã hội này rất hay thay đổi, do đó chúng tôi là những người tiêu dùng luôn cố gắng giữ liên lạc với tất cả các xu hướng thời trang mới nhất. Rõ ràng không có gì
+                            sai về nó bởi vì thời trang thỏa mãn sự sẵn sàng của chúng ta để trở nên hấp dẫn. Và thời trang cũng là nguồn gốc của sự thịnh vượng và thứ hạng xã hội.
                         </p>
                         <h5>John Doe</h5>
                         <h6>from some company</h6>
@@ -446,76 +401,65 @@
         </div>
     </div>
 
-
-
-
-    <!--download-->
-
-    <div class="container-fluid" id="download">
-        <div class="download">
-            <h3 class="text-dowload">Do you like this app ?</h3>
-            <button class="btn b-btn-download">DOWNLOAD NOW</button>
-        </div>
-
-    </div>
-
-
-
-    <!--Contact-->
-    <div class="container-fluid" id="contact">
-        <div class="contact">
-            <div class="b-page-form text-center">
-                <form action="" class="form">
-                    <h3 class="b-title">
-                        Contact
-                    </h3>
-                    <div class="form-item">
-                        <input type="text" name="email" placeholder="Enter Email">
-                    </div>
-                    <div class="form-item">
-                        <input type="text" name="name" placeholder="Enter Name">
-                    </div>
-                    <div class="form-item">
-                        <input type="text" name="name" placeholder="Enter Name">
-                    </div>
-                    <div class="form-item">
-                        <textarea name="content" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="form-item">
-                        <input type="submit" value="Send">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
 
     <!--Footer-->
-    <footer class="container-fluid ">
-        <div class="d-flex flex-lg-row">
-            <div class="col-lg-6">
-                <div class="d-flex left-text">
-                    <p>
-                        Copyright © 2013 | BAZINGER | All Rights Reversed
+    <footer class="container-fluid " id="footer ">
+        <div class=" d-flex flex-row ">
+            <div class="col-4 ">
+                <h4 class="widget-title ">HỖ TRỢ KHÁCH HÀNG</h4>
+                <ul class="text-footer ">
+                    <li><a><i class="fas fa-angle-down "></i> Tài Khoản</a></li>
+                    <li><a><i class="fas fa-angle-down "></i> Hướng Dẫn Đặt Hàng</a></li>
+                    <li><a><i class="fas fa-angle-down "></i> Cam Kết Bảo Hành</a></li>
+                    <li><a><i class="fas fa-angle-down "></i>Cửa Hàng</a></li>
+                    <li><a><i class="fas fa-angle-down "></i> Giới Thiệu</a></li>
+                </ul>
+            </div>
 
-                    </p>
+
+            <div class="col-4 ">
+                <h4 class="widget-title ">CẨM NANG SỬ DỤNG</h4>
+                <ul class="text-footer ">
+                    <li><a><i class="fas fa-angle-down "></i> Trang sức theo tháng sinh</a></li>
+                    <li><a><i class="fas fa-angle-down "></i> Trang sức theo phong thủy</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-4 d-flex justify-conten-center ">
+                <i class="fab fa-cc-amazon-pay fa-4x "></i>
+                <div class="row mt-5 ">
+                    <ul class="row text-footer ">
+                        <li class="nav-item mx-2 ">
+                            <img class="payment-icon-image " src="https://i1.wp.com/bountysneakers.com/wp-content/uploads/2018/04/techcombank-logo.png?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 " alt="0 " width="35 " height="30 " srcset="https://i1.wp.com/bountysneakers.com/wp-content/uploads/2018/04/techcombank-logo.png?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 "
+                                src-orig="https://i1.wp.com/bountysneakers.com/wp-content/uploads/2018/04/techcombank-logo.png?resize=150%2C150&amp;ssl=1 " scale="1.100000023841858 ">
+                        </li>
+                        <li class="nav-item mx-2 ">
+                            <img class="payment-icon-image " src="https://i0.wp.com/bountysneakers.com/wp-content/uploads/2018/04/VIETCOMBANK-LOGO.jpg?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 " alt="1 " width="35 " height="30 " srcset="https://i0.wp.com/bountysneakers.com/wp-content/uploads/2018/04/VIETCOMBANK-LOGO.jpg?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 "
+                                src-orig="https://i0.wp.com/bountysneakers.com/wp-content/uploads/2018/04/VIETCOMBANK-LOGO.jpg?resize=150%2C150&amp;ssl=1 " scale="1.100000023841858 ">
+                        </li>
+                        <li class="nav-item mx-2 ">
+                            <img class="payment-icon-image " src="https://i2.wp.com/bountysneakers.com/wp-content/uploads/2018/04/paypal-logo.png?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 " alt="2 " width="35 " height="30 " srcset="https://i2.wp.com/bountysneakers.com/wp-content/uploads/2018/04/paypal-logo.png?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 "
+                                src-orig="https://i2.wp.com/bountysneakers.com/wp-content/uploads/2018/04/paypal-logo.png?resize=150%2C150&amp;ssl=1 " scale="1.100000023841858 ">
+                        </li>
+                        <li class="nav-item ">
+                            <img class="payment-icon-image " src="https://i2.wp.com/bountysneakers.com/wp-content/uploads/2018/04/visa-logo.png?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 " alt="3 " width="35 " height="30 " srcset="https://i2.wp.com/bountysneakers.com/wp-content/uploads/2018/04/visa-logo.png?zoom=1.100000023841858&amp;resize=35%2C30&amp;ssl=1 "
+                                src-orig="https://i2.wp.com/bountysneakers.com/wp-content/uploads/2018/04/visa-logo.png?resize=150%2C150&amp;ssl=1 " scale="1.100000023841858 ">
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-lg-6 right-text">
-                <div class="d-flex justify-content-end">
-                    <p href="#">Terms of Services | Privacy Policy</p>
-                </div>
-            </div>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous "></script>
 
-    <script src="./javascrript.js"></script>
+    <script src="./javascrript.js "></script>
 </body>
 
 </html>
